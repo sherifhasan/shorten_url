@@ -1,4 +1,6 @@
 # Shorty
+Application used for shorten web links 
+
 <img src="https://img.shields.io/badge/made%20with-dart-blue.svg" alt="made with dart">
 
 
@@ -41,7 +43,7 @@ Most of the views require their own model, they need to have a root widget Provi
 - We want the architecture setup to easily support calling functions when a new view is shown without having to convert everything to a stateful widget. To achieve this we converted our BaseView into a stateful widget to use the onInit to pass our model back to use in a callback function that we can execute on. We'll store the model locally in the state and in the initState call we'll check if we have a callback.
 
 ### Testing
-- Add a unit test at `test/models/<YOUR_MODEL>/<YOUR_MODEL>.dart`
+- Add a unit test at `test/models/<YOUR_MODEL>.dart`
 
 ## Building ##
   - Run `flutter packages get` first to download the dependencies.
