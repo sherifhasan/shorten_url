@@ -3,7 +3,13 @@ Application used for shorten web links
 
 <img src="https://img.shields.io/badge/made%20with-dart-blue.svg" alt="made with dart">
 
+## Screenshots 
 
+![Alt text](/design/1_start_screen.png?raw=true )
+![Alt text](/design/2_benefits_screen.png?raw=true )
+![Alt text](/design/3.1_main_screen_empty.png?raw=true )
+![Alt text](/design/3.2_main_screen_empty_missing_link.png?raw=true )
+![Alt text](/design/3.3_main_screen_link_history.png?raw=true )
 ## Folder Structure
 ```bash
 .
